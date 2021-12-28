@@ -1,0 +1,77 @@
+/* SPENCER HEMSTREET */
+body {
+    background-color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#gameCanvas {
+    background: rgb(32,32,32);
+    display: block;
+    margin: 0px auto 0;
+}
+
+#controlCanvas {
+    background: rgb(20,20,20);
+    display: block;
+    margin: auto;
+}
+
+
+@media only screen
+and (device-width : 375px)
+and (device-height : 667px)
+and (-webkit-device-pixel-ratio : 2) {
+    #gameCanvas{
+        background: rgb(32,32,32);
+        width: 95%;
+        height: auto;
+    }
+    #controlCanvas {
+        background: rgb(20,20,20);
+        display: block;
+        width:95%;
+    }
+}
+/* medium phones */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    #gameCanvas{
+        background: rgb(32,32,32);
+        width: 95%;
+        height: auto;
+    }
+    #controlCanvas {
+        background: rgb(20,20,20);
+        width: 95%;
+        display: block;
+    }
+}
+
+@media screen and (max-device-width: 640px){
+    #gameCanvas{
+        background: rgb(32,32,32);
+        width: 95%;
+        height: auto;
+    }
+    #controlCanvas {
+        background: rgb(20,20,20);
+        width: 95%;
+        display: block;
+    }
+}
+
+@media screen and (min-device-width: 765px) and (max-device-width: 1024px){
+    #gameCanvas{
+        background: rgb(32,32,32);
+        width: 600px;
+        height: auto;
+    }
+    #controlCanvas {
+        background: rgb(20,20,20);
+        width: 600px;
+        display: block;
+    }
+}
